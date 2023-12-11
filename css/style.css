@@ -28,6 +28,7 @@ ol li {
 
 .flex {
     display: flex;
+    align-items: stretch;
 }
 
 .image .recipe {
@@ -42,7 +43,7 @@ ol li {
 
 .image img {
     width: 50vw;
-    height: 50vh;
+    object-fit: cover;
 }
 
 /*
@@ -70,7 +71,7 @@ ol li {
 
 .content-title {
     font-size: 14px;
-    width: 45vw;
+    width: 47vw;
     margin: 10px auto;
     border-bottom: 1px solid #aaa;
 }
@@ -81,15 +82,17 @@ ol li {
 
 .ingredient-list dt {
     float: left;
+    clear: left;
     width: 40vw;
 }
 
 .ingredient-list dd {
-    padding-left: 40vw;
+    padding-left: 45vw;
     border-bottom: 1px dotted #aaa;
 }
 
 .step-list {
+    width: 47vw;
     padding: 0;
     display: inline-block;
 }
@@ -108,9 +111,10 @@ ol li {
 
 .btn {
     border: 1px solid #333;
-    width: 100px;
-    padding: 15px auto;
-    margin: 50px auto 0;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    margin: 100px auto 0;
 }
 
 .btn a {
@@ -136,8 +140,10 @@ ol li {
 .sns li {
     padding: 0 10px;
     list-style: none;
+    font-size: 8px;
 }
 
 #footer p {
   text-align: center;
+  font-size: 8px;
 }
