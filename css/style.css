@@ -24,7 +24,6 @@ a {
 
 .image .recipe {
     flex: 1;
-    width: 50vw;
 }
 
 /*
@@ -34,6 +33,7 @@ a {
 */
 
 .image img {
+    width: 50vw;
     height: 50vh;
 }
 
@@ -46,7 +46,7 @@ a {
 
 .recipe {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .recipe p {
@@ -62,8 +62,8 @@ a {
 
 .content-title {
     font-size: 14px;
-    width: calc (50vw - 10px);
-    margin-top: 10px;
+    width: 45vw;
+    margin: 10px auto;
     border-bottom: 1px solid #aaa;
 }
 
@@ -72,13 +72,18 @@ a {
 }
 
 .ingredient-list dt {
-    position: absolute;
-    width: 35vw;
+    float: left;
+    width: 40vw;
 }
 
 .ingredient-list dd {
     padding-left: 40vw;
     border-bottom: 1px dotted #aaa;
+}
+
+.step-list {
+    padding: 0;
+    display: inline-block;
 }
 
 .step-list li {
@@ -95,13 +100,14 @@ a {
 
 .btn {
     border: 1px solid #333;
-    width: 200px;
-    padding: 15px 20px;
+    width: 100px;
+    padding: 15px auto;
     margin: 50px auto 0;
 }
 
 .btn a {
     text-decoration: none;
+    font-size: 10px;
 }
 
 /*
