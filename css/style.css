@@ -12,6 +12,14 @@ a {
     color: #333;
 }
 
+dt, dd {
+    font-size: 10px;
+}
+
+ol li {
+    font-size: 10px;
+}
+
 /*
 ---------------------
   メイン
