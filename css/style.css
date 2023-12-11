@@ -83,6 +83,7 @@ a {
 
 .step-list li {
     border-bottom: 1px dotted #aaa;
+    list-style-position: inside;
 }
 
 
